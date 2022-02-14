@@ -1,27 +1,29 @@
 #include <iostream>
+#include <cmath>
 
 
 
 using namespace std;
 
-int add(int a, int b);
-int result;
-
-
+int myAbs(int a) {
+	int x = sqrt(pow(a, 2));
+	return x;
+}
 int main(){
 	
 
-    int x{12};
-    int y{13};
-	int* ptr{ &x };
+    int x;
+    int y;
+
+	cout << "Type an integer: ";
+	cin >> x;
+	cout << "Type an integer again: ";
+	cin >> y;
 	
+	int diff = myAbs(x - y);
 	
-	cout << "Adress of x: " << &x << endl;
-	cout << "Adress of x: " << ptr << endl;
-	cout << "Value of x: " << *&x << endl;
+	cout << "The difference between your integers are: " << diff << endl;
 
 }
 
-int add(int a, int b) {
-	return a + b;
-}
+
