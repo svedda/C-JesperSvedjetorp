@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lesson1", "Lesson1\Lesson1.vcxproj", "{A657260F-EAF4-46D3-BD90-2D80DB8D6794}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Uppgift 1 Absolute Difference", "Lesson1\Lesson1.vcxproj", "{A657260F-EAF4-46D3-BD90-2D80DB8D6794}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Uppgift1", "Uppgift1\Uppgift1.vcxproj", "{4AB95360-7B3D-4B30-9DC2-5A43E97DD9B1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Uppgift 2 Celcius to Fahrenheit", "Uppgift1\Uppgift1.vcxproj", "{4AB95360-7B3D-4B30-9DC2-5A43E97DD9B1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Uppgift 6 Guessing Game", "Uppgift 6 Guessing Game\Uppgift 6 Guessing Game.vcxproj", "{269B4E51-D202-4432-BFDF-FDAB5B2B4E61}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Uppgift 3 Even or odd", "Uppgift 3 Even or odd\Uppgift 3 Even or odd.vcxproj", "{F9510AFF-EDA4-42F1-B237-AD2C78223F40}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Uppgift 4 Last digit of a number", "Uppgift 4 Last digit of a number\Uppgift 4 Last digit of a number.vcxproj", "{2F879D9F-3D12-4D15-B1ED-3581F3B46CAE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Uppgift 7 Arithmetic Progression", "Uppgift 7 Arithmetic Progression\Uppgift 7 Arithmetic Progression.vcxproj", "{B0C9FE4A-1355-4E33-9C49-6CC61293FFC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +39,38 @@ Global
 		{4AB95360-7B3D-4B30-9DC2-5A43E97DD9B1}.Release|x64.Build.0 = Release|x64
 		{4AB95360-7B3D-4B30-9DC2-5A43E97DD9B1}.Release|x86.ActiveCfg = Release|Win32
 		{4AB95360-7B3D-4B30-9DC2-5A43E97DD9B1}.Release|x86.Build.0 = Release|Win32
+		{269B4E51-D202-4432-BFDF-FDAB5B2B4E61}.Debug|x64.ActiveCfg = Debug|x64
+		{269B4E51-D202-4432-BFDF-FDAB5B2B4E61}.Debug|x64.Build.0 = Debug|x64
+		{269B4E51-D202-4432-BFDF-FDAB5B2B4E61}.Debug|x86.ActiveCfg = Debug|Win32
+		{269B4E51-D202-4432-BFDF-FDAB5B2B4E61}.Debug|x86.Build.0 = Debug|Win32
+		{269B4E51-D202-4432-BFDF-FDAB5B2B4E61}.Release|x64.ActiveCfg = Release|x64
+		{269B4E51-D202-4432-BFDF-FDAB5B2B4E61}.Release|x64.Build.0 = Release|x64
+		{269B4E51-D202-4432-BFDF-FDAB5B2B4E61}.Release|x86.ActiveCfg = Release|Win32
+		{269B4E51-D202-4432-BFDF-FDAB5B2B4E61}.Release|x86.Build.0 = Release|Win32
+		{F9510AFF-EDA4-42F1-B237-AD2C78223F40}.Debug|x64.ActiveCfg = Debug|x64
+		{F9510AFF-EDA4-42F1-B237-AD2C78223F40}.Debug|x64.Build.0 = Debug|x64
+		{F9510AFF-EDA4-42F1-B237-AD2C78223F40}.Debug|x86.ActiveCfg = Debug|Win32
+		{F9510AFF-EDA4-42F1-B237-AD2C78223F40}.Debug|x86.Build.0 = Debug|Win32
+		{F9510AFF-EDA4-42F1-B237-AD2C78223F40}.Release|x64.ActiveCfg = Release|x64
+		{F9510AFF-EDA4-42F1-B237-AD2C78223F40}.Release|x64.Build.0 = Release|x64
+		{F9510AFF-EDA4-42F1-B237-AD2C78223F40}.Release|x86.ActiveCfg = Release|Win32
+		{F9510AFF-EDA4-42F1-B237-AD2C78223F40}.Release|x86.Build.0 = Release|Win32
+		{2F879D9F-3D12-4D15-B1ED-3581F3B46CAE}.Debug|x64.ActiveCfg = Debug|x64
+		{2F879D9F-3D12-4D15-B1ED-3581F3B46CAE}.Debug|x64.Build.0 = Debug|x64
+		{2F879D9F-3D12-4D15-B1ED-3581F3B46CAE}.Debug|x86.ActiveCfg = Debug|Win32
+		{2F879D9F-3D12-4D15-B1ED-3581F3B46CAE}.Debug|x86.Build.0 = Debug|Win32
+		{2F879D9F-3D12-4D15-B1ED-3581F3B46CAE}.Release|x64.ActiveCfg = Release|x64
+		{2F879D9F-3D12-4D15-B1ED-3581F3B46CAE}.Release|x64.Build.0 = Release|x64
+		{2F879D9F-3D12-4D15-B1ED-3581F3B46CAE}.Release|x86.ActiveCfg = Release|Win32
+		{2F879D9F-3D12-4D15-B1ED-3581F3B46CAE}.Release|x86.Build.0 = Release|Win32
+		{B0C9FE4A-1355-4E33-9C49-6CC61293FFC6}.Debug|x64.ActiveCfg = Debug|x64
+		{B0C9FE4A-1355-4E33-9C49-6CC61293FFC6}.Debug|x64.Build.0 = Debug|x64
+		{B0C9FE4A-1355-4E33-9C49-6CC61293FFC6}.Debug|x86.ActiveCfg = Debug|Win32
+		{B0C9FE4A-1355-4E33-9C49-6CC61293FFC6}.Debug|x86.Build.0 = Debug|Win32
+		{B0C9FE4A-1355-4E33-9C49-6CC61293FFC6}.Release|x64.ActiveCfg = Release|x64
+		{B0C9FE4A-1355-4E33-9C49-6CC61293FFC6}.Release|x64.Build.0 = Release|x64
+		{B0C9FE4A-1355-4E33-9C49-6CC61293FFC6}.Release|x86.ActiveCfg = Release|Win32
+		{B0C9FE4A-1355-4E33-9C49-6CC61293FFC6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\JesperSvedjetorp\Desktop\Unity Stuff\c++\C-JesperSvedjetorp\Lesson1\Uppgift 6 Guessing Game\main.cpp(10,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Uppgift 6 Guessing Game.vcxproj -> C:\Users\JesperSvedjetorp\Desktop\Unity Stuff\c++\C-JesperSvedjetorp\Lesson1\Debug\Uppgift 6 Guessing Game.exe
