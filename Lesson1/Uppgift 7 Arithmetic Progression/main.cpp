@@ -1,11 +1,23 @@
 #include <iostream>
-
 using namespace std;
 
-int main() {
 
-	int artP;
+    void reverseString(string & str)
+    {
+        int n = str.length();
 
-	cout << "Arithmetic progression is when the difference between each successive pair of values in a series of numbers are the same. Lets insert some numbers and i will let you know if it contains arithmetic progression: ";
-	cin >> artP;
-}
+        for (int i = 0; i < n / 2; i++)
+            swap(str[i], str[n - i - 1]);
+    }
+
+    int main()
+    {
+        string str;
+
+        cout << "insert a word and i shall reverse it!: ";
+        cin >> str;
+
+        reverseString(str);
+        cout << "your word reversed is: " << str;
+        return 0;
+    }

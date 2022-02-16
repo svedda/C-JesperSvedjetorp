@@ -24,6 +24,7 @@
     <ProjectGuid>{b0c9fe4a-1355-4e33-9c49-6cc61293ffc6}</ProjectGuid>
     <RootNamespace>Uppgift7ArithmeticProgression</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Uppgift 8 Reverse Collection</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
