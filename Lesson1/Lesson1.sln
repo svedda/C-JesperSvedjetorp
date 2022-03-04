@@ -13,7 +13,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Uppgift 3 Even or odd", "Up
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Uppgift 4 Last digit of a number", "Uppgift 4 Last digit of a number\Uppgift 4 Last digit of a number.vcxproj", "{2F879D9F-3D12-4D15-B1ED-3581F3B46CAE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Uppgift 7 Arithmetic Progression", "Uppgift 7 Arithmetic Progression\Uppgift 7 Arithmetic Progression.vcxproj", "{B0C9FE4A-1355-4E33-9C49-6CC61293FFC6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Uppgift 8 Reverse Collection", "Uppgift 7 Arithmetic Progression\Uppgift 7 Arithmetic Progression.vcxproj", "{B0C9FE4A-1355-4E33-9C49-6CC61293FFC6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Uppgift", "Uppgift\Uppgift.vcxproj", "{9ED5117A-0A7A-4463-A781-8CFFCFEC326F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,14 @@ Global
 		{B0C9FE4A-1355-4E33-9C49-6CC61293FFC6}.Release|x64.Build.0 = Release|x64
 		{B0C9FE4A-1355-4E33-9C49-6CC61293FFC6}.Release|x86.ActiveCfg = Release|Win32
 		{B0C9FE4A-1355-4E33-9C49-6CC61293FFC6}.Release|x86.Build.0 = Release|Win32
+		{9ED5117A-0A7A-4463-A781-8CFFCFEC326F}.Debug|x64.ActiveCfg = Debug|x64
+		{9ED5117A-0A7A-4463-A781-8CFFCFEC326F}.Debug|x64.Build.0 = Debug|x64
+		{9ED5117A-0A7A-4463-A781-8CFFCFEC326F}.Debug|x86.ActiveCfg = Debug|Win32
+		{9ED5117A-0A7A-4463-A781-8CFFCFEC326F}.Debug|x86.Build.0 = Debug|Win32
+		{9ED5117A-0A7A-4463-A781-8CFFCFEC326F}.Release|x64.ActiveCfg = Release|x64
+		{9ED5117A-0A7A-4463-A781-8CFFCFEC326F}.Release|x64.Build.0 = Release|x64
+		{9ED5117A-0A7A-4463-A781-8CFFCFEC326F}.Release|x86.ActiveCfg = Release|Win32
+		{9ED5117A-0A7A-4463-A781-8CFFCFEC326F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
